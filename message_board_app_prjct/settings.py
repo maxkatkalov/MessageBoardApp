@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-wxv#!0oa0m)5s^81j8os+*y*_u-=re8zv&b3$@ro2!ip45zhx+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['message-board.techone.pp.ua']
+ALLOWED_HOSTS = ['message-board.techone.pp.ua', "localhost"]
 
 
 # Application definition
