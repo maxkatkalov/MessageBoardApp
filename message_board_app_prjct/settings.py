@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-wxv#!0oa0m)5s^81j8os+*y*_u-=re8zv&b3$@ro2!ip45zhx+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['message-board.techone.pp.ua']
 
 
 # Application definition
@@ -76,12 +76,9 @@ WSGI_APPLICATION = "message_board_app_prjct.wsgi.application"
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'message_board',
-        'USER': 'baseynice',
-        'PASSWORD': 'baseynice',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase', # This is where you put the name of the db file.
+                 # If one doesn't exist, it will be created at migration time.
     }
 }
 
