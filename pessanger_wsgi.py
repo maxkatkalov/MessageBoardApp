@@ -1,0 +1,1 @@
+from message_board_app_prjct.wsgi import application
